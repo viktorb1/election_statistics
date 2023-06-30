@@ -4,6 +4,7 @@ import ApprovalRating from '../views/ApprovalRating.vue'
 import Demographics from '../views/Demographics.vue'
 
 const routes = [
+  { path: '/election_statistics', redirect: '/approval' },
   { path: '/', component: ApprovalRating },
   { path: '/approval', component: ApprovalRating },
   { path: '/demographics', component: Demographics }
